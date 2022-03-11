@@ -1,0 +1,119 @@
+body{
+    background: black;
+}
+header{
+    color: white;
+}
+/**nav*/
+nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    margin: 1em 0;
+    position: sticky;
+    top: 0;
+    background: white;
+    text-align: center;
+    background: black;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+  }
+  nav li {
+    display: inline-block;
+    padding: 0 1em;
+  }
+  /**image of a pineapple */
+ main img{
+     width: 100%;
+ }
+ main h2{
+     color: white;
+     text-align: center;
+     justify-content: center;
+ }
+ /**button*/
+ .button {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .button:hover {background-color: black}
+  
+  .button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  /**white box*/
+  .one {
+      background-color: white;
+      width: 96%;
+      /**round border*/
+      border: 2px solid red;
+      border-radius: 8px;
+      padding: 5px;
+      /**...*/
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      height: 100vh;
+  }
+  main h5{
+      font-size: x-large;
+      text-align: center;
+  }
+  .two {
+    background-color: white;
+    width: 96%;
+    /**round border*/
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    /**...*/
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+  }
+  .three{
+    background-color: white;
+    width: 96%;
+    /**round border*/
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    /**...*/
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+  }
+  .four{
+    background-color: white;
+    width: 96%;
+    /**round border*/
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    /**...*/
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+  }
+  /**end of the page links*/
+  main nav ul{
+      list-style: none;
+      color: white;
+  }
+  footer{
+      color: whitecd;
+  }
